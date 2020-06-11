@@ -5,16 +5,16 @@ export default () => {
 
   const info = {
 
-    tonica: "g",
-    src: "https://www.youtube.com/embed/rQdEfvenheQ"
+    url: "https://fretmap.app/scale-harmonic-minor/root-c/hand-right",
+    src: "https://www.youtube.com/embed/m5oHAG9044s"
   }
   return (
 
     <div>
 
-      <h1 className = 'text-primary text-center'>Improvisação Am Dórico</h1>
+      <h1 className = 'text-primary text-center'>Improvisação II V I - Cm</h1>
 
-      <Jam tonica = {info.tonica} src = {info.src}/>      
+      <Jam url = {info.url} src = {info.src}/>      
       
     </div>
   );

@@ -2,7 +2,7 @@ import React from "react";
 
 export default (props) => {
 
-    const url = 'https://fretmap.app/scale-major/root-' + props.tonica + '/hand-right'
+    const url = props.url
 
   return (
     <div>      

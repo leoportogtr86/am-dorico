@@ -1,5 +1,5 @@
 import React from "react";
-import EscalaMaior from "./EscalaMaior";
+import Escala from "./Escala";
 import Backing from "./Backing";
 
 
@@ -9,11 +9,11 @@ export default (props) => {
       <div className="container-fluid">
         <div className="row">
           <div className="col">
-            <EscalaMaior tonica={props.tonica} />
+            <Escala url = {props.url} />
           </div>
         </div>
 
-        
+
 
         <div className="row">
           <div className="col">
